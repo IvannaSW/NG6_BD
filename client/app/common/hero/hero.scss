@@ -1,0 +1,27 @@
+@import '../common';
+.hero {
+  background-color: $darkBgColor;
+  height: 50rem;
+  padding: 3rem;
+  background-color: #fff !important;
+  * {
+    color: black;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  table {
+    text-align: center;
+  }
+  .edit-button {
+    margin-left: 10px;
+  }
+  .add-button {
+    margin-top: 30px;
+  }
+  .delete-button {
+    margin-left: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+}
